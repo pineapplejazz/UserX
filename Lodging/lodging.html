@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Taniti</title>
+    <link rel="stylesheet" href="lodging.css">
+    <link rel="icon" href="../favicon.png" type="image/png">
+</head>
+
+<body>
+    <div class="topnav">
+        <a href="../index.html">
+            <div class="title">
+                <img src="../Logo.jpg" alt="Taniti logo" class="logo">
+            </div>
+        </a>
+        <a href="../index.html">Home</a>
+        <div class="dropdown">
+            <a class="active" href="../Food/food.html" class="dropButton">Food</a>
+            <div class="dropdownContent">
+                <a href="../Food/food.html#local">Local Cuisine</a>
+                <a href="../Food/food.html#american">American-Style</a>
+                <a href="../Food/food.html#asian">Pan-Asian Cuisine</a>
+                <a href="../Food/food.html#grocery">Grocery</a>
+            </div>
+        </div>
+        <div class="dropdown">
+            <a href="lodging.html" class="dropButton">Lodging</a>
+            <div class="dropdownContent">
+                <a href="lodging.html#resort">Resort</a>
+                <a href="lodging.html#hotels">Hotels</a>
+                <a href="lodging.html#b&b">Bed and Breakfasts</a>
+                <a href="lodging.html#hostels">Hostels</a>
+            </div>
+        </div>
+        <div class="dropdown">
+            <a href="../Things to Do/things-to-do.html" class="dropButton">Things to Do</a>
+            <div class="dropdownContent">
+                <a href="../Things to Do/things-to-do.html#entertainment">Entertainment</a>
+                <a href="../Things to Do/things-to-do.html#sightseeing">Sightseeing</a>
+            </div>
+        </div>
+        <div class="dropdown">
+            <a href="../Transportation/transportation.html" class="dropButton">Transportation</a>
+            <div class="dropdownContent">
+                <a href="../Transportation/transportation.html#gettingHere">Getting Here</a>
+                <a href="../Transportation/transportation.html#onceYourehere">Once You're Here</a>
+            </div>
+        </div>
+        <a href="../FAQ/faq.html">FAQ</a>
+    </div>
+    <img class="screenImage" src="Landscape.jpg" alt="City scape">
+    <div class="sidenav">
+        <a href="#resort">Resort</a>
+        <a href="#hotels">Hotels</a>
+        <a href="#b&b">Bed & Breakfasts</a>
+        <a href="#hostels">Hostels</a>
+    </div>
+    <div class="main-content">
+        <p class="italic">
+            Taniti has a wide variety of lodging that ranges from an inexpensive hostel to one large, four-star resort.
+            There are many small, family-owned hotels and a growing number of bed and breakfasts. All types of lodging
+            are strictly regulated and regularly inspected by the Tanitian government.
+        </p>
+        <h2 id="resort">Resort</h2>
+        <hr>
+        <h3>Taniti Resort & Spa</h3>
+        <a href="https://www.google.com/maps/place/Hawaii/@20.4400544,-160.1468176,7z/data=!3m1!4b1!4m6!3m5!1s0x7bffdb064f79e005:0x4b7782d274cc8628!8m2!3d19.8986819!4d-155.6658568!16zL20vMDNnaDQ?entry=ttu&g_ep=EgoyMDI1MDUxMy4xIKXMDSoASAFQAw%3D%3D"
+            class="address" target="_blank">4340
+            W Taniti Dr, Taniti</a>
+        <p>Phone: (111)-111-1111</p>
+        <div class="image-gallery">
+            <img src="resort.jpg" alt="Resort" class="thumbnail" onclick="openLightBox(this)">
+        </div>
+        <div id="lightbox" class="lightbox" onclick="closeLightbox()">
+            <span class="close" onclick="closeLightBox()">×</span>
+            <img id="lightboxImage" class="lightboxContent" src="">
+        </div>
+        <div id="lightbox" class="lightbox" onclick="closeLightbox()">
+            <span class="close" onclick="closeLightBox()">×</span>
+            <img id="lightboxImage" class="lightboxContent" src="">
+        </div>
+        <script src="../script.js"></script>
+        <h2 id="hotels">Hotels</h2>
+        <hr>
+        <h3>Family Inn</h3>
+        <a href="https://www.google.com/maps/place/Hawaii/@20.4400544,-160.1468176,7z/data=!3m1!4b1!4m6!3m5!1s0x7bffdb064f79e005:0x4b7782d274cc8628!8m2!3d19.8986819!4d-155.6658568!16zL20vMDNnaDQ?entry=ttu&g_ep=EgoyMDI1MDUxMy4xIKXMDSoASAFQAw%3D%3D"
+            class="address" target="_blank">1955
+            SW Taniti Ave, Taniti</a>
+        <p>Phone: (222)-222-2222</p>
+        <div class="image-gallery">
+            <img src="Hotel1.jpg" alt="hotel" class="thumbnail" onclick="openLightBox(this)">
+        </div>
+        <h3>Tipton Suites</h3>
+        <a href="https://www.google.com/maps/place/Hawaii/@20.4400544,-160.1468176,7z/data=!3m1!4b1!4m6!3m5!1s0x7bffdb064f79e005:0x4b7782d274cc8628!8m2!3d19.8986819!4d-155.6658568!16zL20vMDNnaDQ?entry=ttu&g_ep=EgoyMDI1MDUxMy4xIKXMDSoASAFQAw%3D%3D"
+            class="address" target="_blank">2955
+            N Palm Taniti Ave, Taniti</a>
+        <p>Phone: (333)-333-3333</p>
+        <div class="image-gallery">
+            <img src="Hotel2.jpg" alt="hotel" class="thumbnail" onclick="openLightBox(this)">
+        </div>
+        <h3>Taniti Motel</h3>
+        <a href="https://www.google.com/maps/place/Hawaii/@20.4400544,-160.1468176,7z/data=!3m1!4b1!4m6!3m5!1s0x7bffdb064f79e005:0x4b7782d274cc8628!8m2!3d19.8986819!4d-155.6658568!16zL20vMDNnaDQ?entry=ttu&g_ep=EgoyMDI1MDUxMy4xIKXMDSoASAFQAw%3D%3D"
+            class="address" targets="_blank">550
+            N Palm Taniti Ave, Taniti</a>
+        <p>Phone: (444)-444-4444</p>
+        <div class="image-gallery">
+            <img src="Hotel3.jpg" alt="hotel" class="thumbnail" onclick="openLightBox(this)">
+        </div>
+        <h2 id="b&b">Bed & Breakfasts</h2>
+        <hr>
+        <p class="italic">
+            Taniti offers many Bed & Breakfast Spots. The best part about Bed & Breakfasts is that you can choose a
+            location most convenient to you. Check them out here. <br>
+            AirBnB: <a
+                href="https://www.airbnb.com/a/discover/?account_id=142001799&campaign_id=380403558&ad_id=80951606632730&ad_group_id=1295224921606272&keyword_id=kwd-80951790849842:loc-190&device=c&&c=.pi2.pk380403558_1295224921606272&ghost=true&gclid=9d1dc691c9cf1bee341faeb6393729e8&gclsrc=3p.ds&msclkid=9d1dc691c9cf1bee341faeb6393729e8&utm_source=bing&utm_medium=cpc&utm_campaign=USA%3ADTM%3ABRD%3AAIRBNB%5BEXACT%5D&utm_term=airbnb%5C&utm_content=Airbnb%3AGeneric%2BExact&gclid=9d1dc691c9cf1bee341faeb6393729e8&gclsrc=3p.ds&gad_source=7"
+                target="_blank">https://www.airbnb.com/</a>
+        </p>
+        <h2 id="hostels">Hostels</h2>
+        <hr>
+        <h3>Taniti Hostel</h3>
+        <a href="https://www.google.com/maps/place/Hawaii/@20.4400544,-160.1468176,7z/data=!3m1!4b1!4m6!3m5!1s0x7bffdb064f79e005:0x4b7782d274cc8628!8m2!3d19.8986819!4d-155.6658568!16zL20vMDNnaDQ?entry=ttu&g_ep=EgoyMDI1MDUxMy4xIKXMDSoASAFQAw%3D%3D"
+            class="address" target="_blank">440
+            S Taniti Dr, Taniti</a>
+        <p>Phone: (555)-555-5555</p>
+        <div class="image-gallery">
+            <img src="hostel.jpg" alt="hostel" class="thumbnail" onclick="openLightBox(this)">
+        </div>
+    </div>
+
+    <footer>
+        <div class="footerContainer">
+            <div class="footerLeft">
+                <h3 class="visit">Visit Taniti</h3>
+            </div>
+            <div class="footerRight">
+                <nav>
+                    <a href="../index.html">Home</a>
+                    <span>·</span>
+                    <a href="../FAQ/faq.html">FAQ</a>
+                    <span>·</span>
+                    <a href="https://pixabay.com/" target="_blank">Photo Source</a>
+                    <span>·</span>
+                    <a href="lodging.html"><button id="myButton" title="Go to top">Back-to-Top</button></a>
+                </nav>
+            </div>
+        </div>
+    </footer>
+
+</html>

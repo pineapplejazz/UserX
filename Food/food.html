@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Taniti</title>
+    <link rel="stylesheet" href="food.css">
+    <link rel="icon" href="../favicon.png" type="image/png">
+</head>
+
+<body>
+    <div class="topnav">
+        <a href="../index.html">
+            <div class="title">
+                <img src="../Logo.jpg" alt="Taniti logo" class="logo">
+            </div>
+        </a>
+        <a href="../index.html">Home</a>
+        <div class="dropdown">
+            <a class="active" href="food.html" class="dropButton">Food</a>
+            <div class="dropdownContent">
+                <a href="food.html#local">Local Cuisine</a>
+                <a href="food.html#american">American-Style</a>
+                <a href="food.html#asian">Pan-Asian Cuisine</a>
+                <a href="food.html#grocery">Grocery</a>
+            </div>
+        </div>
+        <div class="dropdown">
+            <a href="../Lodging/lodging.html" class="dropButton">Lodging</a>
+            <div class="dropdownContent">
+                <a href="../Lodging/lodging.html#resort">Resort</a>
+                <a href="../Lodging/lodging.html#hotels">Hotels</a>
+                <a href="../Lodging/lodging.html#b&b">Bed and Breakfasts</a>
+                <a href="../Lodging/lodging.html#hostels">Hostels</a>
+            </div>
+        </div>
+        <div class="dropdown">
+            <a href="../Things to Do/things-to-do.html" class="dropButton">Things to Do</a>
+            <div class="dropdownContent">
+                <a href="../Things to Do/things-to-do.html#entertainment">Entertainment</a>
+                <a href="../Things to Do/things-to-do.html#sightseeing">Sightseeing</a>
+            </div>
+        </div>
+        <div class="dropdown">
+            <a href="../Transportation/transportation.html" class="dropButton">Transportation</a>
+            <div class="dropdownContent">
+                <a href="../Transportation/transportation.html#gettingHere">Getting Here</a>
+                <a href="../Transportation/transportation.html#onceYourehere">Once You're Here</a>
+            </div>
+        </div>
+        <a href="../FAQ/faq.html">FAQ</a>
+    </div>
+    <div class="sidenav">
+        <a href="#local">Local Cuisine</a>
+        <a href="#american">American-Style</a>
+        <a href="#asian">Pan-Asian Cuisine</a>
+        <a href="#grocery">Grocery</a>
+    </div>
+    <div class="main-content">
+        <p class="italic">
+            Feeling hungry? Taniti currently has 10 restaurants: five serve mostly local fish and rice, three serve
+            American-style meals, and two serve Pan-Asian cuisine.
+        </p>
+        <h2 id="local">Local Cuisine</h2>
+        <hr>
+        <h3>Tiki Breeze Grill</h3>
+        <a href="https://www.google.com/maps/place/Hawaii/@20.4400544,-160.1468176,7z/data=!3m1!4b1!4m6!3m5!1s0x7bffdb064f79e005:0x4b7782d274cc8628!8m2!3d19.8986819!4d-155.6658568!16zL20vMDNnaDQ?entry=ttu&g_ep=EgoyMDI1MDUxMy4xIKXMDSoASAFQAw%3D%3D"
+            class="address" target="_blank">4342
+            W Taniti Dr, Taniti</a>
+        <div class="image-gallery">
+            <img src="Tiki.jpg" alt="Tiki Grill" class="thumbnail" onclick="openLightBox(this)">
+        </div>
+        <div id="lightbox" class="lightbox" onclick="closeLightbox()">
+            <span class="close" onclick="closeLightBox()">×</span>
+            <img id="lightboxImage" class="lightboxContent" src="">
+        </div>
+        <div id="lightbox" class="lightbox" onclick="closeLightbox()">
+            <span class="close" onclick="closeLightBox()">×</span>
+            <img id="lightboxImage" class="lightboxContent" src="">
+        </div>
+        <script src="../script.js"></script>
+        <p>
+            Experience local cuisine at Tiki Breeze Grill. Tiki Breeze Grill offers delicious island food for everyone
+            to
+            enjoy. It offers a beautiful view of the ocean since it is located directly on the beach. This restaurant
+            offers
+            both indoor and outdoor seating and is dedicated to serving delicious meals to enjoy with others!
+        </p>
+        <p>
+            Rating: ★★★★★
+        </p>
+        <h3>Lagoon and Lime Bistro</h3>
+        <a href="https://www.google.com/maps/place/Hawaii/@20.4400544,-160.1468176,7z/data=!3m1!4b1!4m6!3m5!1s0x7bffdb064f79e005:0x4b7782d274cc8628!8m2!3d19.8986819!4d-155.6658568!16zL20vMDNnaDQ?entry=ttu&g_ep=EgoyMDI1MDUxMy4xIKXMDSoASAFQAw%3D%3D"
+            class="address" target="_blank">1111
+            E Taniti Dr, Taniti</a>
+        <div class="image-gallery">
+            <img src="Lagoon.jpg" alt="Lagoon and Lime Bistro" class="thumbnail" onclick="openLightBox(this)">
+        </div>
+        <p>
+            Lagoon and Lime Bistro is a family-owned and operated Tanitian restaurant located at the heart of Taniti.
+            Enjoy authentic fish and rice while supporting a local community business.
+        </p>
+        <p>
+            Rating: ★★★★☆
+        </p>
+        <h3>Sunset Drift Shack</h3>
+        <a href="https://www.google.com/maps/place/Hawaii/@20.4400544,-160.1468176,7z/data=!3m1!4b1!4m6!3m5!1s0x7bffdb064f79e005:0x4b7782d274cc8628!8m2!3d19.8986819!4d-155.6658568!16zL20vMDNnaDQ?entry=ttu&g_ep=EgoyMDI1MDUxMy4xIKXMDSoASAFQAw%3D%3D"
+            class="address" target="_blank">5050
+            SW Taniti Ave, Taniti</a>
+        <div class="image-gallery">
+            <img src="Sunset.jpg" alt="Sunset Drift Shack" class="thumbnail" onclick="openLightBox(this)">
+        </div>
+        <p>
+            Come to Sunset Drift Shack. Famed for its award of being one of the world’s best late-night dining. It
+            features glass architecture, high-backed booths, and ship-themed chairs. It is a two-story restaurant
+            located in the center of downtown Taniti
+        </p>
+        <p>
+            Rating: ★★★★★
+        </p>
+        <h3>Coral Cove Bites</h3>
+        <a href="https://www.google.com/maps/place/Hawaii/@20.4400544,-160.1468176,7z/data=!3m1!4b1!4m6!3m5!1s0x7bffdb064f79e005:0x4b7782d274cc8628!8m2!3d19.8986819!4d-155.6658568!16zL20vMDNnaDQ?entry=ttu&g_ep=EgoyMDI1MDUxMy4xIKXMDSoASAFQAw%3D%3D"
+            class="address" target="_blank">9520
+            W Palm Taniti Dr, Taniti</a>
+        <div class="image-gallery">
+            <img src="sliders.jpg" alt="beef sliders" class="thumbnail" onclick="openLightBox(this)">
+        </div>
+        <p>
+            For more than 20 years, Coral Cove Bites has been serving up high-quality fresh seafood cooked to
+            perfection. Come relax and dine at Coral Cove Bites. It is located on the outskirts of downtown, making it
+            the perfect local place to bring family and friends.
+        </p>
+        <p>
+            Rating: ★★★★★
+        </p>
+        <h3>Palm Haven Eatery</h3>
+        <a href="https://www.google.com/maps/place/Hawaii/@20.4400544,-160.1468176,7z/data=!3m1!4b1!4m6!3m5!1s0x7bffdb064f79e005:0x4b7782d274cc8628!8m2!3d19.8986819!4d-155.6658568!16zL20vMDNnaDQ?entry=ttu&g_ep=EgoyMDI1MDUxMy4xIKXMDSoASAFQAw%3D%3D"
+            class="address" target="_blank">1515
+            SW Grand Taniti Dr, Taniti</a>
+        <div class="image-gallery">
+            <img src="Taniti food.jpg" alt="Taniti food" class="thumbnail" onclick="openLightBox(this)">
+        </div>
+        <p>
+            Introducing traditional Taniti food to locals and tourists, Palm Haven eatery serves up family recipes.
+            Reserve your table at Palm Haven Eatery and discover your next favorite culinary destination.
+        </p>
+        <p>
+            Rating: ★★★★☆
+        </p>
+        <h2 id="american">American-Style</h2>
+        <hr>
+        <h3> Eagle’s Burgers & Steak </h3>
+        <a href="https://www.google.com/maps/place/Hawaii/@20.4400544,-160.1468176,7z/data=!3m1!4b1!4m6!3m5!1s0x7bffdb064f79e005:0x4b7782d274cc8628!8m2!3d19.8986819!4d-155.6658568!16zL20vMDNnaDQ?entry=ttu&g_ep=EgoyMDI1MDUxMy4xIKXMDSoASAFQAw%3D%3D"
+            class="address" target="_blank">1010
+            N Grand Taniti St, Taniti</a>
+        <div class="image-gallery">
+            <img src="cheeseburger.jpg" alt="cheeseburger" class="thumbnail" onclick="openLightBox(this)">
+        </div>
+        <p>
+            Introducing classic American food to Taniti, Eagle’s Burgers & Steak serves delicious meals, such as
+            cheeseburgers and grilled steak. Located near the Tahiti airport, this is the perfect place for tourists who
+            have just arrived in Taniti. This restaurant features paintings of Taniti as indoor decor.
+        </p>
+        <p>
+            Rating: ★★★☆☆
+        </p>
+        <h3>Rustic Fork & Barrel</h3>
+        <a href="https://www.google.com/maps/place/Hawaii/@20.4400544,-160.1468176,7z/data=!3m1!4b1!4m6!3m5!1s0x7bffdb064f79e005:0x4b7782d274cc8628!8m2!3d19.8986819!4d-155.6658568!16zL20vMDNnaDQ?entry=ttu&g_ep=EgoyMDI1MDUxMy4xIKXMDSoASAFQAw%3D%3D"
+            class="address" target="_blank">1515
+            NE Grand Taniti Dr, Taniti</a>
+        <div class="image-gallery">
+            <img src="steak.jpg" alt="steak" class="thumbnail" onclick="openLightBox(this)">
+        </div>
+        <p>
+            Rustic Fork & Barrel offers an exciting and modern dining experience. Rustic Fork & Barrel reflects the
+            waves of the Taniti Beach and the changing tides of the Palm Beach. The restaurant’s scenic location
+            provides a welcoming atmosphere with a pretty backdrop. In addition, customers can expect to experience
+            incredible service and a great ambience. Rustic Fork & Barrel also has a bar with delicious drinks to enjoy!
+        </p>
+        <p>
+            Rating: ★★★★★
+        </p>
+
+
+        <h3>Hometown Grillery </h3>
+        <a href="https://www.google.com/maps/place/Hawaii/@20.4400544,-160.1468176,7z/data=!3m1!4b1!4m6!3m5!1s0x7bffdb064f79e005:0x4b7782d274cc8628!8m2!3d19.8986819!4d-155.6658568!16zL20vMDNnaDQ?entry=ttu&g_ep=EgoyMDI1MDUxMy4xIKXMDSoASAFQAw%3D%3D"
+            class="address" target="_blank">1599
+            N Little Taniti St, Taniti</a>
+        <div class="image-gallery">
+            <img src="tomahawk.jpg" alt="tomohawk" class="thumbnail" onclick="openLightBox(this)">
+        </div>
+        <p>
+            With its comfy atmosphere and great selection of food, Hometown Grillery attracts both locals and tourists.
+            Hometown Grillery makes everything from scratch and roasts their own meat.
+        </p>
+        <p>
+            Rating: ★★★★☆
+        </p>
+        <h2 id="asian">Pan-Asian Cuisine</h2>
+        <hr>
+        <h3> Sakura Sushi </h3>
+        <a href="https://www.google.com/maps/place/Hawaii/@20.4400544,-160.1468176,7z/data=!3m1!4b1!4m6!3m5!1s0x7bffdb064f79e005:0x4b7782d274cc8628!8m2!3d19.8986819!4d-155.6658568!16zL20vMDNnaDQ?entry=ttu&g_ep=EgoyMDI1MDUxMy4xIKXMDSoASAFQAw%3D%3D"
+            class="address" target="_blank">7200
+            N Little Palm Taniti St, Taniti</a>
+        <div class="image-gallery">
+            <img src="sushi.jpg" alt="sushi" class="thumbnail" onclick="openLightBox(this)">
+        </div>
+        <p>
+            As the only revolving sushi bar in Taniti, it is a local favorite. Come and enjoy the modern dining
+            experience with robot servers. Sakura Sushi features fresh, high-quality seafood prepped as sushi and
+            sashimi.
+        </p>
+        <p>
+            Rating: ★★★★☆
+        </p>
+
+        <h3>Kurin Thai </h3>
+        <a href="https://www.google.com/maps/place/Hawaii/@20.4400544,-160.1468176,7z/data=!3m1!4b1!4m6!3m5!1s0x7bffdb064f79e005:0x4b7782d274cc8628!8m2!3d19.8986819!4d-155.6658568!16zL20vMDNnaDQ?entry=ttu&g_ep=EgoyMDI1MDUxMy4xIKXMDSoASAFQAw%3D%3D"
+            class="address" target="_blank">7202
+            N Little Palm Taniti St, Taniti</a>
+        <div class="image-gallery">
+            <img src="thai.jpg" alt="thai" class="thumbnail" onclick="openLightBox(this)">
+        </div>
+        <p>
+            Kurin Thai offers delicious, authentic Thai food. This restaurant features a warm atmosphere with
+            paintings
+            of Thailand. Kurin Thai is located on the eastern part of the island, right next to Sakura Sushi.
+        </p>
+        <p>
+            Rating: ★★★★★
+        </p>
+        <h2 id="grocery">Grocery</h2>
+        <hr>
+        <p class="italic">
+            Taniti has two supermarkets, two smaller grocery stores, and one convenience store that is open 24 hours
+            a
+            day.
+        </p>
+        <div class="image-gallery">
+            <img src="market.jpg" alt="market" class="thumbnail" onclick="openLightBox(this)">
+            <img src="ramen.jpg" alt="ramen" class="thumbnail" onclick="openLightBox(this)">
+        </div>
+
+
+
+    </div>
+</body>
+<footer>
+    <div class="footerContainer">
+        <div class="footerLeft">
+            <h3 class="visit">Visit Taniti</h3>
+        </div>
+        <div class="footerRight">
+            <nav>
+                <a href="../index.html">Home</a>
+                <span>·</span>
+                <a href="../FAQ/faq.html">FAQ</a>
+                <span>·</span>
+                <a href="https://pixabay.com/" target="_blank">Photo Source</a>
+                <span>·</span>
+                <a href="food.html"><button id="myButton" title="Go to top">Back-to-Top</button></a>
+            </nav>
+        </div>
+    </div>
+</footer>
+
+</html>

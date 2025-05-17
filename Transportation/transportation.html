@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Taniti</title>
+    <link rel="stylesheet" href="transportation.css">
+    <link rel="icon" href="../favicon.png" type="image/png">
+</head>
+
+<body>
+    <div class="topnav">
+        <a href="index.html">
+            <div class="title">
+                <img src="../Logo.jpg" alt="Taniti logo" class="logo">
+            </div>
+        </a>
+        <a class="active" href="../index.html">Home</a>
+        <div class="dropdown">
+            <a href="../Food\food.html" class="dropButton">Food</a>
+            <div class="dropdownContent">
+                <a href="../Food/food.html#local">Local Cuisine</a>
+                <a href="../Food/food.html#american">American-Style</a>
+                <a href="../Food/food.html#asian">Pan-Asian Cuisine</a>
+                <a href="../Food/food.html#grocery">Grocery</a>
+            </div>
+        </div>
+        <div class="dropdown">
+            <a href="../Lodging/lodging.html" class="dropButton">Lodging</a>
+            <div class="dropdownContent">
+                <a href="../Lodging/lodging.html#resort">Resort</a>
+                <a href="../Lodging/lodging.html#hotels">Hotels</a>
+                <a href="../Lodging/lodging.html#b&b">Bed and Breakfasts</a>
+                <a href="../Lodging/lodging.html#hostels">Hostels</a>
+            </div>
+        </div>
+        <div class="dropdown">
+            <a href="../Things to Do/things-to-do.html" class="dropButton">Things to Do</a>
+            <div class="dropdownContent">
+                <a href="../Things to Do/things-to-do.html#entertainment">Entertainment</a>
+                <a href="../Things to Do/things-to-do.html#sightseeing">Sightseeing</a>
+            </div>
+        </div>
+        <div class="dropdown">
+            <a href="transportation.html" class="dropButton">Transportation</a>
+            <div class="dropdownContent">
+                <a href="transportation.html#gettingHere">Getting Here</a>
+                <a href="transportation.html#onceYourehere">Once You're Here</a>
+            </div>
+        </div>
+        <a href="../FAQ/faq.html">FAQ</a>
+    </div>
+    <main class="main-content">
+        <section class="text-content">
+            <p class="italic">
+                Almost all visitors arrive to Taniti by air, though some arrive on a small cruise ship
+                that docks in
+                Yellow Leaf Bay for one night per week. Taniti is served by a small airport that can accommodate small
+                jets and propeller planes. Taniti is in the process of expanding the airport so larger jets will be able
+                to land on the island within the next few years.
+            </p>
+            <h1 class="title" id="gettingHere">Getting Here</h1>
+            <hr>
+            <h2> By Air</h2>
+            <p>
+                Soar into the Taniti airport, the best airport on the island. Enjoy beautiful views of Taniti right away
+                through the airplane windows.
+            </p>
+            <p>
+                Taniti has one airport. It is located on the east side of the island. Another airport is being built on
+                the west side of the
+                island. Both airports offer local Tanitian food, so as soon as you land, you can start exploring!
+            </p>
+            <div class="image-gallery">
+                <img src="airplane.jpg" alt="airplane" class="thumbnail" onclick="openLightBox(this)">
+            </div>
+            <div id="lightbox" class="lightbox" onclick="closeLightbox()">
+                <span class="close" onclick="closeLightBox()">×</span>
+                <img id="lightboxImage" class="lightboxContent" src="">
+            </div>
+            <div id="lightbox" class="lightbox" onclick="closeLightbox()">
+                <span class="close" onclick="closeLightBox()">×</span>
+                <img id="lightboxImage" class="lightboxContent" src="">
+            </div>
+            <script src="../script.js"></script>
+            <h2> By Cruise</h2>
+            <p>
+                Take a relaxing cruise to the island of Taniti. The cruise will dock in Yellow Leaf Bay for one night
+                per week.
+            </p>
+            <div class="image-gallery">
+                <img src="cruise.jpg" alt="cruise" class="thumbnail" onclick="openLightBox(this)">
+            </div>
+            <h1 id="onceYourehere">Once You're Here</h1>
+            <hr>
+            <p class="italic">
+                Public buses serve Taniti City and run from 5 a.m. to 11 p.m. every day. Private buses serve the rest of
+                the island. Taxis are available in Taniti City, and rental cars can be rented from a local rental agency
+                near the airport. Bikes and helmets are available to rent from several vendors (helmets are required by
+                law). Taniti City is fairly flat and very walkable. Many tourists stay in the area surrounding Merriton
+                Landing: this area is easy to explore on foot.
+            </p>
+            <h2></h2>
+
+        </section>
+
+        <aside class="image-content">
+            <a href="../Things to Do/things-to-do.html">
+                <img src="sailboat.jpg" alt="sailboat">
+                <div class="caption">
+                    <p>Always something to do in Taniti</p>
+                    <hr>
+                    <a href="../Things to Do/things-to-do.html" class="learn-more">Learn More</a>
+                </div>
+            </a>
+        </aside>
+    </main>
+
+</body>
+<footer>
+    <div class="footerContainer">
+        <div class="footerLeft">
+            <h3 class="visit">Visit Taniti</h3>
+        </div>
+        <div class="footerRight">
+            <nav>
+                <a href="index.html">Home</a>
+                <span>·</span>
+                <a href="FAQ/faq.html">FAQ</a>
+                <span>·</span>
+                <a href="https://pixabay.com/" target="_blank">Photo Source</a>
+                <span>·</span>
+                <a href="transportation.html"><button id="myButton" title="Go to top">Back-to-Top</button></a>
+            </nav>
+        </div>
+    </div>
+</footer>
+
+</html>

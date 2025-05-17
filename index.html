@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Taniti</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="icon" href="favicon.png" type="image/png">
+</head>
+
+<body>
+    <div class="topnav">
+        <a href="index.html">
+            <div class="title">
+                <img src="Logo.jpg" alt="Taniti logo" class="logo">
+            </div>
+        </a>
+        <a class="active" href="index.html">Home</a>
+        <div class="dropdown">
+            <a href="Food\food.html" class="dropButton">Food</a>
+            <div class="dropdownContent">
+                <a href="Food/food.html#local">Local Cuisine</a>
+                <a href="Food/food.html#american">American-Style</a>
+                <a href="Food/food.html#asian">Pan-Asian Cuisine</a>
+                <a href="Food/food.html#grocery">Grocery</a>
+            </div>
+        </div>
+        <div class="dropdown">
+            <a href="Lodging/lodging.html" class="dropButton">Lodging</a>
+            <div class="dropdownContent">
+                <a href="Lodging/lodging.html#resort">Resort</a>
+                <a href="Lodging/lodging.html#hotels">Hotels</a>
+                <a href="Lodging/lodging.html#b&b">Bed and Breakfasts</a>
+                <a href="Lodging/lodging.html#hostels">Hostels</a>
+            </div>
+        </div>
+        <div class="dropdown">
+            <a href="Things to Do/things-to-do.html" class="dropButton">Things to Do</a>
+            <div class="dropdownContent">
+                <a href="Things to Do/things-to-do.html#entertainment">Entertainment</a>
+                <a href="Things to Do/things-to-do.html#sightseeing">Sightseeing</a>
+            </div>
+        </div>
+        <div class="dropdown">
+            <a href="Transportation/transportation.html" class="dropButton">Transportation</a>
+            <div class="dropdownContent">
+                <a href="Transportation/transportation.html#gettingHere">Getting Here</a>
+                <a href="Transportation/transportation.html#onceYourehere">Once You're Here</a>
+            </div>
+        </div>
+        <a href="FAQ/faq.html">FAQ</a>
+    </div>
+    <img class="screenImage" src="Island.jpg" alt="Island of Taniti">
+    <h2 class="title">About the Island</h2>
+    <p>
+        Taniti is a little island that is located in the Pacific. The island is a tropical island with an area that’s
+        less than 500 square miles. Its terrain varies and includes both sandy and rocky beaches. In addition, it
+        features a small but safe harbor, pretty tropical rainforests, and a mountainous interior that includes a small,
+        active volcano.
+        Taniti’s indigenous population is about 20,000. Then, until the recent increase in tourism, the
+        Tanitian economy was dependent and dominated by fishing and agriculture.
+        There are plenty of things to do and
+        sights to see in Taniti. Make Taniti your next adventure!
+    </p>
+    <div class="image-gallery">
+        <img src="Beach.jpg" alt="Taniti Beach" class="thumbnail" onclick="openLightBox(this)">
+        <img src="Volcano.jpg" alt="Taniti Volcano" class="thumbnail" onclick="openLightBox(this)">
+        <img src="hiking.jpg" alt="Taniti hike" class="thumbnail" onclick="openLightBox(this)">
+    </div>
+    <div id="lightbox" class="lightbox" onclick="closeLightbox()">
+        <span class="close" onclick="closeLightBox()">×</span>
+        <img id="lightboxImage" class="lightboxContent" src="">
+    </div>
+    <div id="lightbox" class="lightbox" onclick="closeLightbox()">
+        <span class="close" onclick="closeLightBox()">×</span>
+        <img id="lightboxImage" class="lightboxContent" src="">
+    </div>
+    <script src="script.js"></script>
+</body>
+<footer>
+    <div class="footerContainer">
+        <div class="footerLeft">
+            <h3 class="visit">Visit Taniti</h3>
+        </div>
+        <div class="footerRight">
+            <nav>
+                <a href="index.html">Home</a>
+                <span>·</span>
+                <a href="FAQ/faq.html">FAQ</a>
+                <span>·</span>
+                <a href="https://pixabay.com/" target="_blank">Photo Source</a>
+                <span>·</span>
+                <a href="index.html"><button id="myButton" title="Go to top">Back-to-Top</button></a>
+            </nav>
+        </div>
+    </div>
+</footer>
+
+</html>

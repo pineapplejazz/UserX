@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Taniti</title>
+    <link rel="stylesheet" href="things-to-do.css">
+    <link rel="icon" href="../favicon.png" type="image/png">
+</head>
+
+<body>
+    <div class="topnav">
+        <a href="index.html">
+            <div class="title">
+                <img src="../Logo.jpg" alt="Taniti logo" class="logo">
+            </div>
+        </a>
+        <a class="active" href="../index.html">Home</a>
+        <div class="dropdown">
+            <a href="../Food\food.html" class="dropButton">Food</a>
+            <div class="dropdownContent">
+                <a href="../Food/food.html#local">Local Cuisine</a>
+                <a href="../Food/food.html#american">American-Style</a>
+                <a href="../Food/food.html#asian">Pan-Asian Cuisine</a>
+                <a href="../Food/food.html#grocery">Grocery</a>
+            </div>
+        </div>
+        <div class="dropdown">
+            <a href="../Lodging/lodging.html" class="dropButton">Lodging</a>
+            <div class="dropdownContent">
+                <a href="../Lodging/lodging.html#resort">Resort</a>
+                <a href="../Lodging/lodging.html#hotels">Hotels</a>
+                <a href="../Lodging/lodging.html#b&b">Bed and Breakfasts</a>
+                <a href="../Lodging/lodging.html#hostels">Hostels</a>
+            </div>
+        </div>
+        <div class="dropdown">
+            <a href="things-to-do.html" class="dropButton">Things to Do</a>
+            <div class="dropdownContent">
+                <a href="things-to-do.html#entertainment">Entertainment</a>
+                <a href="things-to-do.html#sightseeing">Sightseeing</a>
+            </div>
+        </div>
+        <div class="dropdown">
+            <a href="../Transportation/transportation.html" class="dropButton">Transportation</a>
+            <div class="dropdownContent">
+                <a href="../Transportation/transportation.html#gettingHere">Getting Here</a>
+                <a href="../Transportation/transportation.html#onceYourehere">Once You're Here</a>
+            </div>
+        </div>
+        <a href="../FAQ/faq.html">FAQ</a>
+    </div>
+    <img class="screenImage" src="landscape.jpg" alt="Island of Taniti">
+    <h2 class="title" id="entertainment">Entertainment</h2>
+    <hr>
+    <p>
+        Most people visit Taniti to enjoy the beaches, explore the rainforest, and to visit the volcano. However, there
+        are other things to do, including visiting a local history museum, going on chartered fishing tours, snorkeling,
+        zip-lining in the rainforest, visiting several pubs, including a microbrewery, dancing at a new dance club,
+        seeing a movie, taking helicopter rides, playing at an arcade, visiting art galleries, and bowling. Also, a
+        nine-hole golf course should be operational by next year. Many of these activities are located in Merriton
+        Landing, which is a rapidly developing area on the north side of Yellow Leaf Bay.
+    </p>
+    <div class="image-gallery">
+        <figure>
+            <img src="museum.jpg" alt="museum" class="thumbnail" onclick="openLightBox(this)">
+            <figcaption>Local History Museum</figcaption>
+        </figure>
+        <figure>
+            <img src="fishing.jpg" alt="fishing" class="thumbnail" onclick="openLightBox(this)">
+            <figcaption>Fishing Tour</figcaption>
+        </figure>
+        <figure>
+            <img src="snorkeling.jpg" alt="snorkeling" class="thumbnail" onclick="openLightBox(this)" id="snorkeling">
+            <figcaption>Snorkeling</figcaption>
+        </figure>
+    </div>
+    <div id="lightbox" class="lightbox" onclick="closeLightbox()">
+        <span class="close" onclick="closeLightBox()">×</span>
+        <img id="lightboxImage" class="lightboxContent" src="">
+    </div>
+    <div id="lightbox" class="lightbox" onclick="closeLightbox()">
+        <span class="close" onclick="closeLightBox()">×</span>
+        <img id="lightboxImage" class="lightboxContent" src="">
+    </div>
+    <script src="../script.js"></script>
+    <div class="image-gallery">
+        <figure>
+            <img src="zipline.jpg" alt="ziplining" class="thumbnail" onclick="openLightBox(this)">
+            <figcaption>Ziplines</figcaption>
+        </figure>
+        <figure>
+            <img src="pub.jpg" alt="pubs" class="thumbnail" onclick="openLightBox(this)">
+            <figcaption>Pub</figcaption>
+        </figure>
+        <figure>
+            <img src="dance club.jpg" alt="dance club" class="thumbnail" onclick="openLightBox(this)">
+            <figcaption>Dance Club</figcaption>
+        </figure>
+    </div>
+    <div class="image-gallery">
+        <figure>
+            <img src="movie.jpg" alt="movie" class="thumbnail" onclick="openLightBox(this)">
+            <figcaption>Movie Theater</figcaption>
+        </figure>
+        <figure>
+            <img src="helicopter.jpg" alt="helicopter rides" class="thumbnail" onclick="openLightBox(this)">
+            <figcaption>Helicopter Ride</figcaption>
+        </figure>
+        <figure>
+            <img src="arcade.jpg" alt="arcade" class="thumbnail" onclick="openLightBox(this)">
+            <figcaption>Arcade</figcaption>
+        </figure>
+    </div>
+    <div class="image-gallery">
+        <figure>
+            <img src="art.jpg" alt="art gallery" class="thumbnail" onclick="openLightBox(this)">
+            <figcaption>Art Gallery</figcaption>
+        </figure>
+        <figure>
+            <img src="bowling.jpg" alt="bowling" class="thumbnail" onclick="openLightBox(this)">
+            <figcaption>Bowling</figcaption>
+        </figure>
+        <figure>
+            <img src="golf.jpg" alt="golf" class="thumbnail" onclick="openLightBox(this)">
+            <figcaption>Golf</figcaption>
+        </figure>
+    </div>
+    <h2 class="title" id="sightseeing">Sightseeing</h2>
+    <hr>
+    <p>
+        Most tourists spend most of their time in Taniti City, which boasts native architecture and nearby white, sandy
+        beaches that encircle Yellow Leaf Bay. Other popular activities include boat or bus tours of the island, hikes
+        in the rainforest, or visits to Taniti’s active volcano.
+    </p>
+    <div class="image-gallery">
+        <figure>
+            <img src="boat.jpg" alt="Boat Tour" class="thumbnail" onclick="openLightBox(this)">
+            <figcaption>Boat Tour</figcaption>
+        </figure>
+        <figure>
+            <img src="rainforest.jpg" alt="Rainforest Hike" class="thumbnail" onclick="openLightBox(this)">
+            <figcaption>Rainforest Hike</figcaption>
+        </figure>
+        <figure>
+            <img src="activeVolcano.jpg" alt="Taniti Volcano" class="thumbnail" onclick="openLightBox(this)">
+            <figcaption>Taniti Volcano</figcaption>
+        </figure>
+    </div>
+</body>
+<footer>
+    <div class="footerContainer">
+        <div class="footerLeft">
+            <h3 class="visit">Visit Taniti</h3>
+        </div>
+        <div class="footerRight">
+            <nav>
+                <a href="index.html">Home</a>
+                <span>·</span>
+                <a href="FAQ/faq.html">FAQ</a>
+                <span>·</span>
+                <a href="https://pixabay.com/" target="_blank">Photo Source</a>
+                <span>·</span>
+                <a href="things-to-do.html"><button id="myButton" title="Go to top">Back-to-Top</button></a>
+            </nav>
+        </div>
+    </div>
+</footer>
+
+</html>
